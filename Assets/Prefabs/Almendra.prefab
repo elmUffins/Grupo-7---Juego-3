@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 6127306534228027214}
   - component: {fileID: 6127306534228797294}
   - component: {fileID: 6127306534229796270}
+  - component: {fileID: 54284188093198472}
   m_Layer: 0
-  m_Name: Agradnik_Ezequiel Ian_48113056
+  m_Name: Almendra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,3 +78,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!54 &54284188093198472
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6127306534227606382}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

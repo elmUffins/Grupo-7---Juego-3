@@ -241,6 +241,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5339965922949892466}
   - component: {fileID: 54345475027431924}
+  - component: {fileID: 64397591718530926}
   m_Layer: 0
   m_Name: Sandwich
   m_TagString: Untagged
@@ -287,6 +288,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &64397591718530926
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5339965922949535058}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &5339965922949535060
 GameObject:
   m_ObjectHideFlags: 0

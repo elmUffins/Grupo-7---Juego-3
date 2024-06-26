@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4862130959776097483}
   - component: {fileID: 4862130959777228299}
   - component: {fileID: 54638983182761488}
+  - component: {fileID: 64103774567290096}
   m_Layer: 0
   m_Name: Pizza
   m_TagString: Untagged
@@ -94,3 +95,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &64103774567290096
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4862130959775037643}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 9de877a6785653c40b4a0200c7a5e35d, type: 3}

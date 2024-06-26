@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6127306534228797294}
   - component: {fileID: 6127306534229796270}
   - component: {fileID: 54284188093198472}
+  - component: {fileID: 64994928716746788}
   m_Layer: 0
   m_Name: Almendra
   m_TagString: Untagged
@@ -94,3 +95,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &64994928716746788
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6127306534227606382}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 312e83de24265ed468c52373373f1518, type: 3}

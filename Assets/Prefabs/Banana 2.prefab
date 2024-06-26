@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4510827769241775397}
   - component: {fileID: 4510827769240678373}
   - component: {fileID: 54548772088585430}
+  - component: {fileID: 64840675932965400}
   m_Layer: 0
   m_Name: Banana 2
   m_TagString: Untagged
@@ -94,3 +95,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &64840675932965400
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4510827769242612005}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: cdf90ecbfd6f5eb41b3ad2a1fd1c3381, type: 3}

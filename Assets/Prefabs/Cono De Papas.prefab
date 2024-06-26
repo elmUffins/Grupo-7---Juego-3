@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4965488647940877465}
   - component: {fileID: 4965488647942008409}
   - component: {fileID: 54886042666242002}
+  - component: {fileID: 64389956955203226}
   m_Layer: 0
   m_Name: Cono De Papas
   m_TagString: Untagged
@@ -95,3 +96,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &64389956955203226
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4965488647944269977}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: a4b0a4653579a344da4adb66a42fda38, type: 3}

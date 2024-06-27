@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/CAIDA.unity
+    guid: a0bf02a754517564bb6f57be9ce60e65
+  - enabled: 1
+    path: Assets/Scenes/RESPUESTA.unity
+    guid: 9abf99c5cc55d954b924ee414f9c487c
   m_configObjects: {}

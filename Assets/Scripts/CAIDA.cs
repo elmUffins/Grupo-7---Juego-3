@@ -9,10 +9,11 @@ public class CAIDA : MonoBehaviour
     public Transform[] spawners; // Array con los spawners
     public float delay = 1.0f; // Delay entre cada instanciación del prefab
     public float delayDeCambio = 5.0f; // Delay entre la caída del último elemento y el cambio de pantalla
+    public static int cantidad = Random.Range(4, 20);
 
     void Start()
     {
-        int cantidad = Random.Range(4, 20); 
+        
         int elemento = Random.Range(0, 20); 
         StartCoroutine(SpawnObjects(cantidad, elemento)); // Activa el proceso 'SpawnObjects'
         Debug.Log(cantidad);

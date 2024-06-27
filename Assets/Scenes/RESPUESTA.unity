@@ -251,7 +251,9 @@ MonoBehaviour:
   esperando: {fileID: 994956281}
   titulo: {fileID: 364433002}
   responder: {fileID: 1559219528}
-  cantidad: {fileID: 1508438120}
+  cantidadT: {fileID: 1508438120}
+  textoGood: {fileID: 1874662072}
+  textoBad: {fileID: 582431871}
 --- !u!4 &87495189
 Transform:
   m_ObjectHideFlags: 0
@@ -344,7 +346,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 186328213}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 87495188}
+        m_MethodName: ReRun
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &186328213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1136,7 +1149,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1041072858}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 87495188}
+        m_MethodName: Ok
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1041072858
 MonoBehaviour:
   m_ObjectHideFlags: 0

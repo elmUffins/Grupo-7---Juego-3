@@ -9,10 +9,12 @@ public class BOTONES : MonoBehaviour
     public GameObject panelNumero; 
     public GameObject panelError;
     public GameObject esperando;
+    public GameObject titulo;
+    public GameObject responder;
+    public GameObject cantidad;
 
     void Start()
     {
-        esperando.SetActive(true);
         panelNumero.SetActive(false);
         panelError.SetActive(false);
     }
@@ -23,12 +25,18 @@ public class BOTONES : MonoBehaviour
 
         if (int.TryParse(inputText, out int result))
         {
+            titulo.SetActive(false);
+            responder.SetActive(false);
+            cantidad.SetActive(false);
             esperando.SetActive(false);
             panelNumero.SetActive(true);
             panelError.SetActive(false);
         }
         else
         {
+            titulo.SetActive(false);
+            responder.SetActive(false);
+            cantidad.SetActive(false);
             esperando.SetActive(false);
             panelNumero.SetActive(false);
             panelError.SetActive(true);

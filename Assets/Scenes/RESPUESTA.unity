@@ -249,6 +249,9 @@ MonoBehaviour:
   panelNumero: {fileID: 378403540}
   panelError: {fileID: 1171464172}
   esperando: {fileID: 994956281}
+  titulo: {fileID: 364433002}
+  responder: {fileID: 1559219528}
+  cantidad: {fileID: 1508438120}
 --- !u!4 &87495189
 Transform:
   m_ObjectHideFlags: 0

@@ -164,7 +164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3701374340386681260}
   - component: {fileID: 54771819547103764}
-  - component: {fileID: 64677505936104812}
+  - component: {fileID: 64046509265474298}
   m_Layer: 0
   m_Name: Lata De Coca
   m_TagString: Untagged
@@ -204,7 +204,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &64677505936104812
+--- !u!64 &64046509265474298
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -217,4 +217,4 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 4300000, guid: 6fd2a40ee0185bf4b908247806963d35, type: 3}

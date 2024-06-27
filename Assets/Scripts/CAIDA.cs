@@ -8,15 +8,14 @@ public class CAIDA : MonoBehaviour
     public GameObject[] productosPrefab; // Array de todos los productos disponibles
     public Transform[] spawners; // Array con los spawners
     public float delay = 2.0f; // Delay entre cada instanciación del prefab
-    public float delayDeCambio = 6.0f; // Delay entre la caída del último elemento y el cambio de pantalla
-    public static int cantidad;
+    public float delayDeCambio = 5.0f; // Delay entre la caída del último elemento y el cambio de pantalla
+    public static int cantidad; 
 
     void Start()
     {
         cantidad = Random.Range(4, 20);
         int elemento = Random.Range(0, 20); 
         StartCoroutine(SpawnObjects(cantidad, elemento)); // Activa el proceso 'SpawnObjects'
-        Debug.Log(cantidad);
     }
 
     IEnumerator SpawnObjects(int cantidad, int elemento) // Función de tipo 'IEnumerator', permite iterar los objetos y utilizar 'WaitForSeconds'
@@ -28,10 +27,8 @@ public class CAIDA : MonoBehaviour
             yield return new WaitForSeconds(delay); 
         }
 
-        Debug.Log("Waiting 6 seconds");
-        yield return new WaitForSeconds(delay);
+        yield return new WaitForSeconds(delayDeCambio);
         SceneManager.LoadScene("RESPUESTA");
-        Debug.Log("Scene Changed");
     }
 
     void Update()

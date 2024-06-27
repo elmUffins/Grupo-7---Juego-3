@@ -2,5 +2,5 @@
 ## TP Grupal de Unity
 ## Integrantes: Eric Gerzenstein, Borja Izurieta, Manuel Pebe Pueyrredón
 ## Profesor: Jerónimo Luis Sánchez Peruga
-# Aclaraciones
+### Aclaraciones
 Para jugar, correr la escena 'CAIDA'. 5 segundos tras caer todos los objetos, se cambiará solo de escena.
